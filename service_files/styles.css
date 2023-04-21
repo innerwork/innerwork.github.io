@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #0b6af8;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  @font-face {
+    font-family: dankmono;
+    src: url("./DankMono-Italic.otf");
+  }
+  
+  main {
+    padding: 3rem;
+    font-family: dankmono;
+    font-size: large;
+    max-width: 80ch;
+  }
+  
+  li {
+    padding: 0.3rem 0;
+  }
+  
+  a {
+    color: rgb(122, 191, 255);
+    text-decoration: none;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+
+
